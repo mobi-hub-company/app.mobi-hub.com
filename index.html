@@ -22,7 +22,7 @@
     $(document).ready(function() {
         $("#status").html("<p>Loading page content...</p>");
         // Load the Markdown file and convert it to HTML for display
-        var markdownURL = "https://mobi-hub.github.io/Registration.md";
+        var markdownURL = "Registration.md";
         $.get(markdownURL, function(markdownContent) {
             var converter = new showdown.Converter();
             var htmlContent = converter.makeHtml(markdownContent);
