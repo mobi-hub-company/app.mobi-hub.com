@@ -19,27 +19,38 @@
     "></script>
 
 <script>
-    $(document).ready(function() {
-        $("#status").html("<p>Loading page content...</p>");
-        // Load the Markdown file and convert it to HTML for display
-        var markdownURL = "Registration.md";
-        $.get(markdownURL, function(markdownContent) {
-            var converter = new showdown.Converter();
-            var htmlContent = converter.makeHtml(markdownContent);
-            $("div#content").html(htmlContent);
-        });
+  $(document).on("click", '.tablinks', function() { 
+
+    var markdownURL = $(this).data('link');
+
+    $.get(markdownURL, function(markdownContent) {
+      var converter = new showdown.Converter();
+      var htmlContent = converter.makeHtml(markdownContent);
+      $("div#content").html(htmlContent);
     });
+
+  });
 </script>
 
 </head>
 
 <body>
+<div class="row">
 
-<div id="content">
+  <div class="col-lg-4 tab">
+      <button class="tablinks" data-link="CreatePost.md" >POST</button>
+      <button class="tablinks" data-link="Registration.md" >Register</button>
+  </div>
+
+  <div class="col-lg-8" id="content">
     <div id="status">
         <p>JavaScript must be enabled in your browser to view this page.</p>
     </div>
+  </div>
+
 </div>
 
+
 </body>
-</html>
+
+</html> 
