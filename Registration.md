@@ -14,7 +14,7 @@ _Part of the sign-up procedure involves receiving a verification code on your ph
 
   ![GitHub Logo](/images/membership1.png) 
 
-3.  Once you have  and accepted the membership requirements. You will proceed to User details page. Fill in all User details as follows:
+3.  Once you have added and accepted the membership requirements. You will proceed to User details page. Fill in all User details as follows:
 * **First Name**
 * **Last Name**
 * **Email**
