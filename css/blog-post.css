@@ -14,3 +14,23 @@ body {
 .tablinks:hover{
   cursor: pointer;  
 }
+.doc_nav{
+        padding: 0px;
+      }
+.doc-content p img{
+  width: 100%;
+}
+.doc_column{
+  min-height: 700px;
+}
+.tog_list{
+  padding-left: 10px;
+}
+@media (max-width: 991.98px)
+{
+.nav_container {
+    padding-right: 20px !important;
+    padding-left: 10px !important;
+}
+}
+
