@@ -8,7 +8,7 @@ body {
 }
 
 .tablinks{
-  color: #007bff !important;
+  color: #27292b  !important;
 }
 
 .tablinks:hover{
@@ -16,6 +16,8 @@ body {
 }
 .doc_nav{
         padding: 0px;
+        background-color: #007fbd;
+        margin-top: 10px;
       }
 .doc-content p img{
   width: 100%;
@@ -33,4 +35,23 @@ body {
     padding-left: 10px !important;
 }
 }
-
+hr {
+  border-top: 1px solid white;
+  margin-bottom: 0px;
+}
+@media (max-width:768px){
+  .list{
+    display: block !important;
+    list-style: none;
+    padding-left: 0px;
+  }
+  .my-4{
+    display:none;
+  }
+}
+.navbar-toggler{
+  background-color: #343a40 !important;
+}
+.nav-link {
+  color: white !important;
+}
