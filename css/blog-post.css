@@ -3,9 +3,6 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
-body {
-  padding-top: 56px;
-}
 
 .tablinks{
   color: #27292b  !important;
@@ -17,7 +14,6 @@ body {
 .doc_nav{
         padding: 0px;
         background-color: #007fbd;
-        margin-top: 10px;
       }
 .doc-content p img{
   width: 100%;
