@@ -1,6 +1,6 @@
 # User manual
 ## Registration process of Mobi-Hub
-###To initiate registration, follow the steps mentioned below
+### To initiate registration, follow the steps mentioned below
 
 _Part of the sign-up procedure involves receiving a verification code on your phone and entering it while filling the registration form._
 
@@ -64,7 +64,7 @@ Once you have filled in all Company details. Click on the Next button.
 **SMS Verification**
 _**Note**: SMS Verification is mandatory._
 * ***Country***
-_(Country will be selected and displayed automatically according to the Country selection made in the Country Details Page.)_
+_(Country can be selected and displayed automatically according to the Country selection made in the Country Details Page.)_
 
 * ***Country Code***
 _(Country code will be displayed automatically according to the Country selection)_
@@ -89,8 +89,22 @@ Below it there is the _Continue to Payment_ button. Click on the button to conti
 
 ![GitHub Logo](/images/registrationsuccess2.png)
 
-7. You will be redirected to the Payment method page.
-   Here, you can request an invoice by clicking on _Request an invoice_ button. You will receive an invoice on your registered email id.
 
-8. When you click to _Pay Now_ button. You are redirected to the paypal payment process. Enter the credentials and click on _Pay Now_ button again. After that click on _Return to Merchant_. You will go to the _Payment Success_ page.
-9. You can click on _Home_ to go to the home page and login there.
+7. You will be redirected to the Payment method page.
+   Here, you can request an invoice by clicking on _Request an invoice_ button. You will receive an invoice mail on your registered email id.
+
+![GitHub Logo](/images/invoice.png)
+
+8. You can click on _Cancel Button_ to cancel the Payment process. Once you click on cancel you will get logged out with a message _"Your payment request cancelled by you"_.
+
+![GitHub Logo](/images/paymentcancelmsg.png)
+
+9. While when you click to _Pay Now_ button. You are redirected to the paypal payment process. Enter the credentials and complete the Paypal payment process. You will go to the _Payment Success_ page.
+
+![GitHub Logo](/images/paypallogin.png)
+
+
+
+10. You can click on _Home_ to go to the home page and login there with your registered user id and password.
+
+![GitHub Logo](/images/login.png)
