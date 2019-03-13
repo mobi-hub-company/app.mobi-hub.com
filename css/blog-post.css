@@ -3,7 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
-
+body{
+  background-color: #6c757d14;
+  font-family: sans-serif;
+}
 .tablinks{
   color: #27292b  !important;
 }
@@ -19,7 +22,7 @@
   width: 100%;
 }
 .doc_column{
-  min-height: 700px;
+  min-height: 750px;
 }
 .tog_list{
   padding-left: 10px;
@@ -50,4 +53,16 @@ hr {
 }
 .nav-link {
   color: white !important;
+}
+.txt-color{
+  color:white !important;
+  line-height: 2;
+}
+.theme-color{
+  color:#007fbd !important;
+}
+hr {
+  border-top: 1px solid #007fbd;
+  margin-bottom: 25px;
+  width: 30%;
 }
