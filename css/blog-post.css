@@ -21,6 +21,9 @@ body{
 .doc-content p img{
   width: 100%;
 }
+.doc-content{
+  padding-left: 16px;
+}
 .doc_column{
   min-height: 750px;
 }
@@ -65,4 +68,19 @@ hr {
   border-top: 1px solid #007fbd;
   margin-bottom: 25px;
   width: 30%;
+}
+.topic-section{
+  background-color: #f3f4f4;
+  position: relative;
+  left: -16px;
+  margin-right: -16px;
+}
+.bottom-content{
+  padding: 20px;
+}
+#usermanual{
+  padding-top: 15px;
+}
+#installation{
+  padding-top: 15px;
 }

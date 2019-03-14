@@ -32,22 +32,6 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <ul class="list" style="display: none">
-            <li class="nav-item">
-              <a class="tablinks txt-color" data-link="CreatePost.md">Create Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="tablinks txt-color" data-link="Registration.md">How to Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="tablinks txt-color" data-link="CreatePost.md">Create Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="tablinks txt-color" data-link="Registration.md">How to Register</a>
-            </li>
-            <hr>
-            </ul>
-           
             <li class="nav-item">
               <a class="nav-link" href="https://staging.mobi-hub.com/about-us">About</a>
             </li>
@@ -74,19 +58,21 @@
           <h1 class="mt-4 text-center theme-color" id="page_title">Topics</h1>
           <hr>
         
-          <div id="page_content" class="doc-content">
+          <div id="page_content" class="card doc-content border-0">
             <!-- topic row -->
+            <div class="topic-section">
             <div class="row mb-3">
               <div class="col-lg-4">
-              <div class="card shadow border-0 p-4 text-center">
-                  <i class="fa fa-2x fa-edit mb-2"></i>
+              <div class="card shadow border-0 p-4 text-center mb-1">
+                  <i class="fa fa-2x fa-edit theme-color mb-2"></i>
                 <h5>Create Post</h5>
-                <button class="btn btn-default tablinks theme-color" data-link="Registration.md">click here</button>
+                <button class="btn btn-default tablinks theme-color" data-link="CreatePost.md">click here</button>
               </div>
               </div>
 
               <div class="col-lg-4">
-                  <div class="card shadow border-0 p-4 text-center">
+                  <div class="card shadow border-0 p-4 text-center mb-1">
+                      <i class="fa fa-2x fa-user-plus theme-color mb-2"></i>
                     <h5>How to Register</h5>
                     
                     <button class="btn btn-default tablinks theme-color" data-link="Registration.md">click here</button>
@@ -94,7 +80,8 @@
                   </div>
 
                   <div class="col-lg-4">
-                      <div class="card shadow border-0 p-4 text-center">
+                      <div class="card shadow border-0 p-4 text-center mb-1">
+                          <i class="fa fa-2x fa-user-plus theme-color mb-2"></i>
                         <h5>How to Register</h5>
                         
                         <button class="btn btn-default tablinks theme-color" data-link="Registration.md">click here</button>
@@ -103,14 +90,16 @@
               </div>
               <div class="row mb-4">
                   <div class="col-lg-4">
-                  <div class="card shadow border-0 p-4 text-center">
+                  <div class="card shadow border-0 p-4 text-center mb-1">
+                      <i class="fa fa-2x fa-edit theme-color mb-2"></i>
                     <h5>Create Post</h5>
                     <button class="btn btn-default tablinks theme-color" data-link="Registration.md">click here</button>
                   </div>
                   </div>
     
                   <div class="col-lg-4">
-                      <div class="card shadow border-0 p-4 text-center" >
+                      <div class="card shadow border-0 p-4 text-center mb-1" >
+                          <i class="fa fa-2x fa-edit theme-color mb-2"></i>
                         <h5>How to Register</h5>
                         
                         <button class="btn btn-default tablinks theme-color" data-link="Registration.md">click here</button>
@@ -118,15 +107,17 @@
                       </div>
     
                       <div class="col-lg-4">
-                          <div class="card shadow border-0 p-4 text-center">
+                          <div class="card shadow border-0 p-4 text-center mb-1">
+                              <i class="fa fa-2x fa-edit theme-color mb-2"></i>
                             <h5>How to Register</h5>
                             
                             <button class="btn btn-default tablinks theme-color" data-link="Registration.md">click here</button>
                           </div>
                           </div>
                   </div>
+                </div>
               <!--end topic row-->
-           
+           <div class="bottom-content">
             <blockquote class="blockquote">
               <p class="mb-0">Lorem ipsum dolor sit , consectetur adipiscing elit. Integer posuere erat a ante.</p>
               <footer class="blockquote-footer">Someone famous in
@@ -150,6 +141,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
 
             <br><br>
+            </div>
           </div>
         
         </div>
@@ -193,15 +185,6 @@
     });
 
     });
-  
-    
-    $('.navbar-collapse ul li a').click(function() {
-$('.navbar-collapse').hide();
-});
-$('.navbar-toggler').click(function() {
-$('.navbar-collapse').show();
-});
-
 
     </script>
   </body>
