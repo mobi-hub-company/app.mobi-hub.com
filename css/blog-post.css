@@ -22,13 +22,13 @@ body{
   width: 100%;
 }
 .doc-content{
-  padding-left: 16px;
+  padding-left: 30px;
 }
 .doc_column{
   min-height: 750px;
 }
 .tog_list{
-  padding-left: 10px;
+  padding-left: 30px;
 }
 @media (max-width: 991.98px)
 {
@@ -72,8 +72,8 @@ hr {
 .topic-section{
   background-color: #f3f4f4;
   position: relative;
-  left: -16px;
-  margin-right: -16px;
+  left: -30px;
+  margin-right: -30px;
 }
 .bottom-content{
   padding: 20px;
