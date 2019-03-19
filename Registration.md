@@ -1,4 +1,5 @@
-# User manual
+<a href="index.html" class="text-dark pull-right mr-2 mt-2"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Back</a>
+# User manual  
 #### Registration process of Mobi-Hub
 ##### To initiate registration, follow the steps mentioned below
 
@@ -95,4 +96,4 @@ _Part of the sign-up procedure involves receiving a verification code on your ph
 8. When you click to _Pay Now_ button. You are redirected to the paypal payment process. Enter the credentials and click on _Pay Now_ button again. After that click on _Return to Merchant_. You will go to the _Payment Success_ page.
 9. You can click on _Home_ to go to the home page and login there.
     <br>
-    <button class="btn btn-primary mt-5 mb-2"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp Back</button>
+    <button class="btn btn-primary mt-5 mb-2"><a href="index.html" class="text-white"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp Back</a></button>

@@ -84,3 +84,33 @@ hr {
 #installation{
   padding-top: 15px;
 }
+.topic-color1{
+  color: #973ee8 !important;
+}
+.topic-color2{
+  color: #00bdac !important;
+}
+.topic-color3{
+  color: var(--red) !important;
+}
+.topic-color4{
+  color: #7d6c6c !important;
+}
+.topic-color5{
+  color: #a72828 !important;
+}
+.topic-color6{
+  color: #ff0c006e !important;
+}
+.doc-social {
+  padding: 14px 15px 14px 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 30px;
+  margin: 10px 10px;
+}
+a {
+  text-decoration: none !important;
+}
