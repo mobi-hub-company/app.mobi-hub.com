@@ -8,8 +8,10 @@
     <title>Blog Post - Start Bootstrap Template</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
     <link href="css/blog-post.css" rel="stylesheet">
+    <link rel="icon" sizes="192x192" class="mobi_hub_icon" href="https://staging.mobi-hub.com/static/front/images/favicon.png">
   </head>
 
   <body>
@@ -17,7 +19,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark doc_nav">
       <div class="container nav_container">
-        <a class="navbar-brand" href="#"><img src="
+        <a class="navbar-brand" href="index.html"><img src="
           https://staging.mobi-hub.com/static/front/images/logo-mobi-hub-white.png" alt="logo" width="180px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,34 +28,18 @@
           <ul class="navbar-nav ml-auto tog_list">
 
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="https://staging.mobi-hub.com/home">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <ul class="list" style="display: none">
             <li class="nav-item">
-              <a class="tablinks" data-link="CreatePost.md">Create Post</a>
+              <a class="nav-link" href="https://staging.mobi-hub.com/about-us">About</a>
             </li>
             <li class="nav-item">
-              <a class="tablinks" data-link="Registration.md">How to Register</a>
+              <a class="nav-link" href="https://staging.mobi-hub.com/home">Services</a>
             </li>
             <li class="nav-item">
-              <a class="tablinks" data-link="CreatePost.md">Create Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="tablinks" data-link="Registration.md">How to Register</a>
-            </li>
-            <hr>
-            </ul>
-           
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="https://staging.mobi-hub.com/contact-us">Contact</a>
             </li>
           </ul>
         </div>
@@ -66,84 +52,90 @@
       <div class="row">
 
         <!-- Post Content Column -->
-        <div class="col-lg-8 col-md-8 hidden-xs doc_column">
+        <div class="col-lg-12 col-md-12 doc_column">
 
           <!-- Title -->
-          <h1 class="mt-4" id="page_title">Post Title</h1>
+          <h1 class="mt-4 text-center theme-color" id="page_title">Topics</h1>
+          <hr>
         
-          <div id="page_content" class="doc-content">
-            <!-- Post Content -->
-            <p class="lead">Lorem ipsum  sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+          <div id="page_content" class="card doc-content border-0">
+            <!-- topic row -->
+            <div class="topic-section">
+            <div class="row mb-3">
+              <div class="col-lg-4">
+              <div class="card shadow border-0 p-4 text-center mb-1">
+                  <i class="fa fa-2x fa-edit topic-color1 mb-2"></i>
+                <h5>Create Post</h5>
+                <button class="btn btn-default tablinks topic-color1" data-link="CreatePost.md">click here</button>
+              </div>
+              </div>
 
-           
-            <blockquote class="blockquote">
-              <p class="mb-0">Lorem ipsum dolor sit , consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="blockquote-footer">Someone famous in
-                <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+              <div class="col-lg-4">
+                  <div class="card shadow border-0 p-4 text-center mb-1">
+                      <i class="fa fa-2x fa-user-plus topic-color2 mb-2"></i>
+                    <h5>How to Register</h5>
+                    
+                    <button class="btn btn-default tablinks topic-color2" data-link="Registration.md">click here</button>
+                  </div>
+                  </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
-
-            <blockquote class="blockquote">
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="blockquote-footer">Someone famous in
-                <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
-
-            <br><br>
-          </div>
-        
+                  <div class="col-lg-4">
+                      <div class="card shadow border-0 p-4 text-center mb-1">
+                          <i class="fa fa-2x fa-user-plus topic-color3 mb-2"></i>
+                        <h5>How to Register</h5>
+                        
+                        <button class="btn btn-default tablinks topic-color3" data-link="Registration.md">click here</button>
+                      </div>
+                      </div>
+              </div>
+              <div class="row mb-4">
+                  <div class="col-lg-4">
+                  <div class="card shadow border-0 p-4 text-center mb-1">
+                      <i class="fa fa-2x fa-edit topic-color4 mb-2"></i>
+                    <h5>Create Post</h5>
+                    <button class="btn btn-default tablinks topic-color4" data-link="Registration.md">click here</button>
+                  </div>
+                  </div>
+    
+                  <div class="col-lg-4">
+                      <div class="card shadow border-0 p-4 text-center mb-1" >
+                          <i class="fa fa-2x fa-edit topic-color5 mb-2"></i>
+                        <h5>How to Register</h5>
+                        
+                        <button class="btn btn-default tablinks topic-color5" data-link="Registration.md">click here</button>
+                      </div>
+                      </div>
+    
+                      <div class="col-lg-4">
+                          <div class="card shadow border-0 p-4 text-center mb-1">
+                              <i class="fa fa-2x fa-edit topic-color6 mb-2"></i>
+                            <h5>How to Register</h5>
+                            
+                            <button class="btn btn-default tablinks topic-color6" data-link="Registration.md">click here</button>
+                          </div>
+                          </div>
+                  </div>
+                </div>
+              <!--end topic row-->
+           <div class="bottom-content">
+             <div class="text-muted mb-5">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet adipisci non similique quia maxime molestias id, laboriosam cumque
+                  doloribus reprehenderit eaque minus quisquam eius a perferendis ut. Ipsum, dignissimos laboriosam.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet adipisci non similique quia maxime molestias id, laboriosam cumque
+                   doloribus reprehenderit eaque minus quisquam eius a perferendis ut. Ipsum, dignissimos laboriosam.</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet adipisci non similique quia maxime molestias id, laboriosam
+                      cumque doloribus reprehenderit eaque minus quisquam eius a perferendis ut. Ipsum, dignissimos laboriosam.</p>
+             </div>
+             
+           </div>
         </div>
+        
+      </div>
 
         <!-- Sidebar Widgets Column -->
-        <div class="col-lg-4 col-md-4">
-
-          <!-- Categories Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Topics</h5>
-            <div class="card-body">
-              <div class="row tab">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a  class="tablinks" data-link="CreatePost.md">Create Post</a>
-                    </li>
-                    <li>
-                      <a  class="tablinks" data-link="Registration.md" >How to Register</a>
-                    </li>
-                    <li>
-                      <a  class="tablinks" data-link="CreatePost.md" >Create Post</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a  class="tablinks" data-link="Registration.md" >How to Register</a>
-                    </li>
-                    <li>
-                      <a  class="tablinks" data-link="CreatePost.md" >Create Post</a>
-                    </li>
-                    <li>
-                      <a  class="tablinks" data-link="Registration.md" >How to Register</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        
 
       </div>
       <!-- /.row -->
@@ -153,11 +145,32 @@
 
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    <footer class="bg-dark pt-4 pb-3">
+      <div class="container pt-3">
+      <div class="row">
+      <div class="col-lg-6 col-sm-6 col-xs-12">
+              <h5><a href="https://staging.mobi-hub.com/home" class="text-white">About</a></h5>
+              <ul class="list-unstyled text-white">
+                <li>Privacy policy</li>
+                <li>Terms and conditions</li>
+                <li> FAQ</li>
+              </ul>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12">
+          <div class="text-center text-white mb-3"><h5>Follow Us On</h5>
+            <i href="https://www.facebook.com/Mobi-Hub-1650835908269057/" class="fa fa-facebook-official theme-color doc-social"></i>
+            <i href="https://www.linkedin.com/company/mobihub" class="fa fa-linkedin theme-color doc-social"></i>
+            <i href="https://www.instagram.com/mobihubtraders/" class="fa fa-instagram theme-color doc-social"></i>
+            <i href="https://twitter.com/mobihubtraders" class="fa fa-twitter theme-color doc-social"></i>
+          </div>
       </div>
+      
       <!-- /.container -->
+      </div>
+      <div class="text-center pt-2 ">
+          <p class="m-0 text-center text-white">Copyright &copy; mobi-hub 2019</p>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -181,8 +194,6 @@
     });
 
     });
-  
-  
 
     </script>
   </body>

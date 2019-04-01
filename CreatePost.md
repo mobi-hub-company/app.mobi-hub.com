@@ -1,16 +1,17 @@
-Showdown is a Javascript Markdown to HTML converter, based on the original works by John Gruber. It can be used client side (in the browser) or server side (with Node or io). 
 
+<a href="index.html" class="text-dark pull-right mr-4 mt-2"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Back</a>
+#  Installation
 
-# Installation
+###  Download tarball
 
-## Download tarball
+_You can download the latest release tarball directly from [releases][releases]_
 
-You can download the latest release tarball directly from [releases][releases]
+####  Bower
 
-## Bower
+      bower install showdown
 
-    bower install showdown
+####  npm (server-side)
 
-## npm (server-side)
+      npm install showdown
 
-    npm install showdown
+  <button class="btn btn-primary mt-5 mb-2"><a href="index.html" class="text-white"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp Back</a></button>

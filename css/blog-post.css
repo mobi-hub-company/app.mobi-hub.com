@@ -3,7 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
-
+body{
+  background-color: #6c757d14;
+  font-family: sans-serif;
+}
 .tablinks{
   color: #27292b  !important;
 }
@@ -18,11 +21,14 @@
 .doc-content p img{
   width: 100%;
 }
+.doc-content{
+  padding-left: 30px;
+}
 .doc_column{
-  min-height: 700px;
+  min-height: 750px;
 }
 .tog_list{
-  padding-left: 10px;
+  padding-left: 30px;
 }
 @media (max-width: 991.98px)
 {
@@ -50,4 +56,61 @@ hr {
 }
 .nav-link {
   color: white !important;
+}
+.txt-color{
+  color:white !important;
+  line-height: 2;
+}
+.theme-color{
+  color:#007fbd !important;
+}
+hr {
+  border-top: 1px solid #007fbd;
+  margin-bottom: 25px;
+  width: 30%;
+}
+.topic-section{
+  background-color: #f3f4f4;
+  position: relative;
+  left: -30px;
+  margin-right: -30px;
+}
+.bottom-content{
+  padding: 20px;
+}
+#usermanual{
+  padding-top: 15px;
+}
+#installation{
+  padding-top: 15px;
+}
+.topic-color1{
+  color: #973ee8 !important;
+}
+.topic-color2{
+  color: #00bdac !important;
+}
+.topic-color3{
+  color: var(--red) !important;
+}
+.topic-color4{
+  color: #7d6c6c !important;
+}
+.topic-color5{
+  color: #a72828 !important;
+}
+.topic-color6{
+  color: #ff0c006e !important;
+}
+.doc-social {
+  padding: 14px 15px 14px 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 30px;
+  margin: 10px 10px;
+}
+a {
+  text-decoration: none !important;
 }
