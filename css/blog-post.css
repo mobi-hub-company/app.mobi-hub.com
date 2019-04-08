@@ -25,7 +25,7 @@ body{
   padding-left: 30px;
 }
 .doc_column{
-  min-height: 750px;
+  min-height: 600px;
 }
 .tog_list{
   padding-left: 30px;
@@ -113,4 +113,8 @@ hr {
 }
 a {
   text-decoration: none !important;
+  color: white;
+}
+a:hover{
+  color:gray;
 }
