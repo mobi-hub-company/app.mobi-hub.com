@@ -8,12 +8,12 @@ _Part of the sign-up procedure involves receiving a verification code on your ph
 1. On the Homepage, click on Create New Account button. 
  (https://app.mobi-hub.com/)
 
- ![GitHub Logo](/images/Create1.png)
+ ![GitHub Logo](/images/Create1.jpg)
 
 2. On clicking on Create New Account button, you can proceed for the registration process. The Membership requirements page appears. Read the membership requirements carefully and then click on Next button to become a verified member.
 (https://app.mobi-hub.com/register)
 
- ![GitHub Logo](/images/membership1.png) 
+ ![GitHub Logo](/images/membership1.jpg) 
 
 3.  Once you have read and accepted the membership requirements. You will proceed to User details page. Fill in all User details as follows:
  *  **First Name**
@@ -32,7 +32,7 @@ _Part of the sign-up procedure involves receiving a verification code on your ph
 
  Once you have filled in all User details. Click on the Next button.
 
- ![GitHub Logo](/images/Userdetails2.png) 
+ ![GitHub Logo](/images/Userdetails2.jpg) 
 
 4. You will go to the Company Details page. Fill in all company details as follows:
 
@@ -58,7 +58,7 @@ _Part of the sign-up procedure involves receiving a verification code on your ph
 
  Once you have filled in all Company details. Click on the Next button.
 
- ![GitHub Logo](/images/Companydetails.png)
+ ![GitHub Logo](/images/Companydetails.jpg)
 
 5. You will proceed to Verification Page. Fill in all company details as follows: 
 
@@ -88,7 +88,7 @@ _Part of the sign-up procedure involves receiving a verification code on your ph
   Thank you for joining the Mobi-Hub community! Please click on the button below to make a payment_
  Below it there is the _Continue to Payment_ button. Click on the button to continue the payment process.
 
- ![GitHub Logo](/images/registrationsuccess2.png)
+ ![GitHub Logo](/images/registrationsuccess2.jpg)
 
 7. You will be redirected to the Payment method page.
    Here, you can request an invoice by clicking on _Request an invoice_ button. You will receive an invoice on your registered email id.
