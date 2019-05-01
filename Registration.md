@@ -104,6 +104,9 @@ Below it there is the _Continue to Payment_ button. Click on the button to conti
 
 ![GitHub Logo](/images/invoice.png)
 
+![GitHub Logo](/images/invoicesuccess.png)
+
+
 You will be redirected to the page of "Invoice request successful". (https://staging.mobi-hub.com/payment/request_success)
 
 You will also receive an email on your registered email id "Requesting payment invoice : Mobi-Hub" of the invoice request confirmation.
